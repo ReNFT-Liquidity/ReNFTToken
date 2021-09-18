@@ -1,19 +1,23 @@
-### RNFT.sol  --> RNFT的ERC20合约
+### RNFT.sol  --> RNFT ERC20 CONTRACT
 
 ```
-A:提供erc20的标准协议方法（转账、余额、授权、总量）；
-B:合约具有所有者 Owner，可变更Owner
-C:提供增发功能,可设置变更minter;
-D:提供销毁功能,可设置变更minter；
-E:提供增加和减少授权数额功能;
-F:提供批量空投发放功能;
+A: Provide erc20 standard protocol method (transfer, balance, authorization, total amount);
+B: The contract include an owner Owner, you can change the owner
+C: Provide additional issuance function, can set up and change the mint;
+D: Provides the destruction function, can set up and change the mint;
+E: Provide the function of increasing and decreasing the amount of authorization;
+F: Provide batch airdrop distribution function;
 ```
 
-### TokenVesting.sol  --> 锁仓合约
+### TokenVesting.sol --> lock contract
 
 ```
-A:支持锁仓断崖时间，后面按间隔等比例解锁；
-B:支持锁仓收回。比如：收益者为原始股东，未到锁仓期限退出。项目拥有者可以收回剩余 锁仓金额。
-C:支持到期解锁，由收益者调用释放；
+A: Support cliff lock time, unlock according to the interval ratio;
+B: Support lock-up recovery. For example: the beneficiary is the original shareholder and withdraws before the lock-up period. The project owner can recover the remaining locked amount.
+C: Support expired unlocking, called and released by the beneficiary;
 ```
+
+
+
+
 
